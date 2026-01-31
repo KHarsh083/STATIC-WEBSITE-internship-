@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple Portfolio Design System - Beginner Friendly */
+
+@layer base {
+  :root {
+    /* Dark Theme with Light Blue Accents */
+    --background: 220 20% 10%;
+    --foreground: 200 20% 95%;
+
+    /* Cards and Containers - Slightly lighter than background */
+    --card: 220 18% 14%;
+    --card-foreground: 200 20% 95%;
+
+    --popover: 220 18% 14%;
+    --popover-foreground: 200 20% 95%;
+
+    /* Primary - Light Blue */
+    --primary: 195 90% 55%;
+    --primary-foreground: 220 20% 10%;
+
+    /* Secondary - Dark blue-gray */
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 200 20% 95%;
+
+    /* Muted - For subtle elements */
+    --muted: 220 15% 18%;
+    --muted-foreground: 215 15% 60%;
+
+    /* Accent - Cyan/Light Blue */
+    --accent: 185 85% 50%;
+    --accent-foreground: 220 20% 10%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 22%;
+    --input: 220 15% 22%;
+    --ring: 195 90% 55%;
+
+    --radius: 0.5rem;
+
+    /* Custom Variables for Portfolio */
+    --section-padding: 5rem 1.5rem;
+    --nav-height: 4rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Simple Utility Classes */
+@layer components {
+  /* Section styling */
+  .section {
+    @apply py-20 px-6;
+  }
+
+  .section-alt {
+    @apply py-20 px-6 bg-secondary;
+  }
+
+  /* Container */
+  .container-narrow {
+    @apply max-w-4xl mx-auto;
+  }
+
+  /* Section titles */
+  .section-title {
+    @apply text-3xl font-bold text-foreground mb-8 text-center;
+  }
+
+  /* Cards */
+  .project-card {
+    @apply bg-card rounded-lg p-6 shadow-md border border-border hover:shadow-lg transition-shadow duration-300;
+  }
+
+  /* Skills badge */
+  .skill-badge {
+    @apply bg-secondary text-foreground px-4 py-2 rounded-lg font-medium;
+  }
+
+  /* Form inputs */
+  .form-input {
+    @apply w-full px-4 py-3 border border-border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all;
+  }
+
+  /* Primary button */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity cursor-pointer;
+  }
+
+  /* Navigation link */
+  .nav-link {
+    @apply text-muted-foreground hover:text-foreground transition-colors cursor-pointer;
+  }
+
+  .nav-link-active {
+    @apply text-foreground font-medium;
+  }
+}
