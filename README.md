@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# Static Portfolio Website
 
-## Project info
+## 📌 Project Overview
+This project is a **static portfolio website** created to showcase a developer’s basic details, skills, and projects.  
+The website is built using **frontend technologies only** and is designed to be **responsive and easy to understand for beginners**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+It is suitable for **academic submission** and demonstrates fundamental web development concepts.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎯 Objectives
+- To create a personal portfolio website
+- To demonstrate basic frontend development skills
+- To design a responsive and clean user interface
+- To understand the structure of a static website
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Technologies Used
+- **HTML** – for structuring the content
+- **CSS** – for styling and layout
+- **JavaScript** – for basic interactivity
 
-Changes made via Lovable will be committed automatically to this repo.
+> No backend, database, or server-side programming is used in this project.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Project Structure
+STATIC-WEBSITE/
+│
+├── index.html # Main HTML file
+├── style.css # CSS file for styling
+├── script.js # JavaScript file for basic functionality
+└── README.md # Project documentation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+*(Additional configuration files may be present due to development tools, but the website itself is frontend-only.)*
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌐 Website Sections
+- **Home** – Introduction and heading section
+- **About** – Basic information about the developer
+- **Skills** – List of technical skills
+- **Projects** – Sample project details
+- **Contact** – Simple contact form (frontend only)
+- **Footer** – Copyright information
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📱 Responsiveness
+The website layout adjusts automatically for:
+- Mobile devices
+- Tablets
+- Desktop screens
 
-**Edit a file directly in GitHub**
+This is achieved using basic CSS techniques.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🚀 How to Run the Project
+### Method 1 (Simple)
+1. Download or clone the project
+2. Open `index.html` directly in any web browser
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Method 2 (Using Code Editor)
+1. Open the folder in VS Code
+2. Right-click `index.html`
+3. Select **Open with Live Server** (if available)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## ⚠️ Important Notes
+- This is a **static website**
+- No form data is stored or submitted to a server
+- JavaScript is used only for basic interactions
+- No paid services or backend cloud features are required
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📚 Learning Outcomes
+- Understanding HTML page structure
+- Using CSS for layout and styling
+- Applying basic JavaScript
+- Creating a responsive static website
+- Organizing frontend project files
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 👤 Author
+**Developer Name:** John Doe  
+**Project Type:** Academic / Practice Project  
+**Domain:** Frontend Web Development
